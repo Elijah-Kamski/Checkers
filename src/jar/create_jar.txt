@@ -1,0 +1,5 @@
+To create a .jar for the progrm with the console UI run the following command in the project folder:
+javac Board.java Pawn.java Piece.java Queen.java UI_console.java && jar cfe Checkers_UI_Console.jar UI_console *.class && rm *.class
+
+To create a .jar for the progrm with the GUI run the following command in the project folder:
+javac Board.java Pawn.java Piece.java Queen.java GUI.java GUI_Piece_Icon.java GUI_Queen_Icon.java && jar cfe Checkers_GUI.jar GUI *.class && rm *.class
